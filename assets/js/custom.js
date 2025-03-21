@@ -9,6 +9,15 @@ $(document).ready(function () {
   });
 
 
+  $('.testimonial-slide').slick({
+    infinite: true,
+    dots: false,
+    arrows: true,
+  });
+  
 
 
-
+  AOS.init({
+    duration: 1200,
+    once: true
+  });
