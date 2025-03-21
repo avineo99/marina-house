@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+}
+body{
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 17px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1680px;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: auto;
+}
+.object-cover{
+    object-fit: cover;
+}
+h1, .h1{
+    font-size: 80px;
+}
+h2, .h2{
+    font-size: 60px;
+}
+h3, .h3{
+    font-size: 50px;
+}
+h4, .h4{
+    font-size: 30px;
+}
+h5, .h5{
+    font-size: 20px;
+}
+p{
+    margin-bottom: 25px;
+}
+.bg-primary{
+background-color: #184DC1 !important;
+}
+.text-primary{
+    color: #184DC1 !important;
+}
+.text-light{
+ color: #8ed8ff !important;
+}
+
+.fs-15{
+    font-size: 15px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-17{
+    font-size: 17px;
+}
+.fs-19{
+    font-size: 19px;
+}
+.fs-20{
+    font-size: 20px !important;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-40{
+    font-size: 40px;
+}
+
+
+.fw-500{
+    font-weight: 500 !important;
+}
+.fw-600{
+    font-weight: 600 !important;
+}
+.fw-700{
+    font-weight: 700 !important;
+}
+.fw-800{
+    font-weight: 800 !important;
+}
+
+
+.ls-100{
+    letter-spacing: 0.1em;
+}
+.ls-500{
+    letter-spacing: 0.05em;
+}
+.ls-1200{
+    letter-spacing: 0.12em;
+}
+
+
+
+
+.lh-0-9{
+    line-height: 0.9;
+}
+.lh-1-3{
+    line-height: 1.3;
+}
+.lh-1-5{
+    line-height: 1.5;
+}
+.lh-1-6{
+    line-height: 1.6;
+}
+.lh-1-7{
+    line-height: 1.7;
+}
+.lh-1-9{
+    line-height: 1.9;
+}
+.lh-2{
+    line-height: 2;
+}
+.lh-2-2{
+    line-height: 2.2;
+}
+
+
+.btn {
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 100px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #184DC1;
+    border-color: #184DC1;
+}
+
+
+
+
+.site-logo{
+    max-width: 292px;
+}
+
+
+ .navbar-nav .nav-link {
+    color: #fff;
+    padding: 0 !important;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active{
+    color: #000;
+}
+
+
+.footer-links ul li a{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.footer-social ul li a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-inline-end: 13px;
+} 
+.footer-logo {
+    max-width: 340px;
+}
+.copy-right{
+    font-size: 15px;
+}
